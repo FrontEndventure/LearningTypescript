@@ -1,0 +1,19 @@
+{
+  "name": "typescriptlearning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "rm -rf build/ && tsc",
+    "tst": "rm -rf build/ && tsc -w",
+    "start": "nodemon genericClass.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "nodemon": "^2.0.16",
+    "typescript": "^4.7.4"
+  }
+}
